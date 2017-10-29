@@ -1,4 +1,4 @@
-package cn.peng.service.member;
+package cn.peng.ssm.test;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
