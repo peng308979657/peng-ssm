@@ -69,7 +69,11 @@
 				<version>${ssm.version}</version>
 			</dependency>
   			
-  			
+  			<dependency>
+				<groupId>cn.peng</groupId>
+				<artifactId>ssm-service-member</artifactId>
+				<version>${ssm.version}</version>
+			</dependency>
   			
   	
   			<!-- 配置 mybatis-spring整合包-->
@@ -356,5 +360,6 @@
   <modules>
     <module>ssm-api</module>
     <module>ssm-service-member</module>
+    <module>ssm-web</module>
   </modules>
 </project>

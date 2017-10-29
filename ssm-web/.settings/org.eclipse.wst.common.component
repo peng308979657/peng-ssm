@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ssm-web">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <dependent-module archiveName="ssm-api-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ssm-api/ssm-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ssm-service-member-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ssm-service-member/ssm-service-member">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="ssm-web"/>
+        <property name="java-output-path" value="/ssm-web/target/classes"/>
+    </wb-module>
+</project-modules>
