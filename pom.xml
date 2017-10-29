@@ -355,5 +355,6 @@
   
   <modules>
     <module>ssm-api</module>
+    <module>ssm-service-member</module>
   </modules>
 </project>
